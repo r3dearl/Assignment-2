@@ -48,6 +48,7 @@ main {
 }
 main h1 { 
 	font-size: 140%;
+	margin: 0;
 }
 main h1:first-letter { 
 	font-size: 240%;
@@ -63,11 +64,13 @@ ul {
 }
 
 /* Footer */
+footer{
+	border-top: 2px solid black;
+	background-image: linear-gradient(45deg, black, orange, white);
+	padding: .1em;
+	clear: both;
+}
 footer p {
 	font-size: 90%;
 	text-align: center;
-	border-top: 2px solid black;
-	padding: 1em;
-	background-image: linear-gradient(45deg, black, orange, white);
-	margin: auto;
 }
